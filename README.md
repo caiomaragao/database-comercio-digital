@@ -37,7 +37,7 @@ O **`db_comercio_digital`** foi projetado para sustentar as operações centrais
 Representa a visão de alto nível do negócio em notação Peter Chen, definindo as 6 entidades principais e suas cardinalidades:
 
 <div align="center">
-  <img src="img/modelo-conceitual.jpeg" alt="Modelo Conceitual - DER" width="800" />
+  <img src="img/mapa-conceitual.jpeg" alt="Modelo Conceitual - DER" width="800" />
 </div>
 
 <br />
@@ -55,7 +55,7 @@ Representa a visão de alto nível do negócio em notação Peter Chen, definind
 Tradução das entidades para tabelas normalizadas, evidenciando as chaves primárias, chaves estrangeiras (`fk_Cliente_id_cliente` em `Pedido` e `fk_Pedido_numero_pedido` em `Pagamento`) e as estruturas associativas (`possui`, `contem` e `pertence`):
 
 <div align="center">
-  <img src="img/modelo-logico.jpeg" alt="Modelo Lógico - Relacional" width="800" />
+  <img src="img/mapa-logico.jpeg" alt="Modelo Lógico - Relacional" width="800" />
 </div>
 
 <br />
